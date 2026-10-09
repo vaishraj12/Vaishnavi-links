@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" style="color-scheme: dark;"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vaishnavi Singh – Links</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&amp;display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f3f6fb; --grid:#d9e1ef; --ink:#14213d; --muted:#4d5b78;
+  --card:#ffffff; --line:#14213d; --accent:#f2a900; --accent-ink:#14213d;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#101a2e; --grid:#1b2742; --ink:#eaf0fb; --muted:#9fb0cf;
+    --card:#17233d; --line:#eaf0fb; --accent:#f2a900; --accent-ink:#14213d;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#101a2e; --grid:#1b2742; --ink:#eaf0fb; --muted:#9fb0cf;
+  --card:#17233d; --line:#eaf0fb; --accent:#f2a900; --accent-ink:#14213d;
+}
+*,*::before,*::after{box-sizing:inherit}
+html{height:100%}
+body{
+  margin:0; min-height:100%;
+  background-color:var(--paper);
+  background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
+  background-size:28px 28px;
+  color:var(--ink);
+  font-family:"Bricolage Grotesque",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  display:flex; justify-content:center;
+}
+main{width:100%; max-width:30rem; padding:3rem 1.25rem 3rem}
+.avatar{
+  width:6rem; height:6rem; border-radius:50%;
+  background:var(--accent); color:var(--accent-ink);
+  border:3px solid var(--line);
+  display:grid; place-items:center;
+  font-weight:800; font-size:2.1rem; letter-spacing:-.02em;
+  margin:0 auto 1.1rem;
+  box-shadow:5px 5px 0 var(--line);
+}
+h1{margin:0; text-align:center; font-size:1.9rem; font-weight:800; letter-spacing:-.02em}
+.role{margin:.4rem 0 0; text-align:center; font-weight:600}
+.bio{margin:.5rem auto 2rem; max-width:24rem; text-align:center; color:var(--muted); line-height:1.5}
+ul{list-style:none; margin:0; padding:0; display:grid; gap:.9rem}
+a.link{
+  display:flex; flex-direction:column; gap:.1rem;
+  padding:.9rem 1.1rem;
+  background:var(--card); color:var(--ink);
+  border:2px solid var(--line); border-radius:.9rem;
+  box-shadow:4px 4px 0 var(--line);
+  text-decoration:none;
+  transition:transform .12s ease, box-shadow .12s ease, background-color .12s ease;
+}
+a.link:hover{transform:translate(2px,2px); box-shadow:2px 2px 0 var(--line); background:var(--accent); color:var(--accent-ink)}
+a.link:active{transform:translate(4px,4px); box-shadow:0 0 0 var(--line)}
+a.link:focus-visible{outline:3px solid var(--accent); outline-offset:3px}
+.t{font-weight:800; font-size:1.05rem}
+.d{font-size:.88rem; color:var(--muted)}
+a.link:hover .d{color:var(--accent-ink)}
+@media (prefers-reduced-motion:reduce){a.link{transition:none}}
+
+.bar{margin-top:2rem;text-align:center}
+button{font:inherit;cursor:pointer;color:var(--ink);background:var(--card);border:2px solid var(--line);border-radius:.7rem;padding:.45rem .9rem;font-weight:600}
+button.go{background:var(--accent);color:var(--accent-ink);box-shadow:3px 3px 0 var(--line)}
+button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.row{background:var(--card);border:2px solid var(--line);border-radius:.9rem;padding:.8rem;display:grid;gap:.5rem;margin-bottom:.9rem}
+.row .btns{display:flex;gap:.4rem;flex-wrap:wrap}
+input,textarea{font:inherit;width:100%;color:var(--ink);background:var(--paper);border:2px solid var(--line);border-radius:.6rem;padding:.45rem .6rem}
+label{font-size:.8rem;color:var(--muted);font-weight:600}
+.msg{font-size:.9rem;color:var(--muted);margin:.6rem 0}
+</style>
+<style></style></head>
+<body data-new-gr-c-s-check-loaded="14.1335.0" data-gr-ext-installed="" data-gr-agent-presence-bridge-connection-id="1791539321211-0.22290325085875007" data-new-gr-c-s-loaded="14.1335.0">
+<main>
+  <div class="avatar" aria-hidden="true">VS</div>
+  <h1 id="nm">Vaishnavi Singh</h1>
+  <p class="role" id="rl">MCA student</p>
+  <p class="bio" id="bio">Currently pursuing MCA at Banasthali Vidyapith and open to software roles and internships.</p>
+  <ul id="links"></ul>
+</main>
+<script type="application/json" id="data">{"name":"Vaishnavi Singh","role":"MCA student","bio":"Currently pursuing MCA at Banasthali Vidyapith and open to software roles and internships.","links":[{"title":"LinkedIn","desc":"Experience and connections","url":"https://linkedin.com/in/vaishnavisingh1274"},{"title":"GitHub","desc":"Code and projects","url":"https://github.com/vaishraj12"},{"title":"LeetCode","desc":"Problem-solving practice","url":"https://leetcode.com/progress/"},{"title":"ShriShanta","desc":"Hostel management system","url":"https://github.com/vaishraj12/Shri-Shanta-Hostel-Management-System"},{"title":"MedSure","desc":"Medicine reminder app (React)","url":"https://github.com/vaishraj12/Medicine-Reminder"},{"title":"Email me","desc":"vaish.s1274@gmail.com","url":"mailto:vaish.s1274@gmail.com"}]}</script>
+<script>
+var data = JSON.parse(document.getElementById("data").textContent);
+var draft = null, editing = false, canEdit = false, artifact = null;
+var ul = document.getElementById("links"), main = document.querySelector("main");
+function $(id){ return document.getElementById(id); }
+function el(tag, props, kids){
+  var n = document.createElement(tag);
+  for (var k in (props || {})) { if (k === "text") n.textContent = props[k]; else n[k] = props[k]; }
+  (kids || []).forEach(function (c) { n.appendChild(c); });
+  return n;
+}
+function safeUrl(u){
+  u = (u || "").trim();
+  if (/^(https?:\/\/|mailto:)/i.test(u)) return u;
+  if (/^[\w-]+(\.[\w-]+)+/.test(u)) return "https://" + u;
+  return "#";
+}
+function render(){
+  $("nm").textContent = data.name; $("rl").textContent = data.role; $("bio").textContent = data.bio;
+  ul.replaceChildren();
+  main.querySelectorAll("[data-edit]").forEach(function (n) { n.remove(); });
+  if (editing) { ul.hidden = true; renderEditor(); return; }
+  ul.hidden = false;
+  data.links.forEach(function (l) {
+    var a = el("a", { className: "link", href: safeUrl(l.url) }, [el("span", { className: "t", text: l.title }), el("span", { className: "d", text: l.desc })]);
+    if (a.href.indexOf("mailto:") !== 0) { a.target = "_blank"; a.rel = "noopener noreferrer"; }
+    ul.appendChild(el("li", {}, [a]));
+  });
+  if (canEdit) {
+    var b = el("button", { text: "Edit page", onclick: function () { draft = JSON.parse(JSON.stringify(data)); editing = true; render(); } });
+    var bar = el("div", { className: "bar" }, [b]); bar.setAttribute("data-edit", ""); main.appendChild(bar);
+  }
+}
+function field(label, obj, key, multi){
+  var inp = el(multi ? "textarea" : "input", { value: obj[key] || "" });
+  if (multi) inp.rows = 3;
+  inp.oninput = function () { obj[key] = inp.value; };
+  return [el("label", { text: label }), inp];
+}
+function renderEditor(){
+  var box = el("div"); box.setAttribute("data-edit", "");
+  var top = el("div", { className: "row" });
+  field("Name", draft, "name").concat(field("Headline", draft, "role"), field("Bio", draft, "bio", true)).forEach(function (n) { top.appendChild(n); });
+  box.appendChild(top);
+  draft.links.forEach(function (l, i) {
+    var r = el("div", { className: "row" });
+    field("Title", l, "title").concat(field("Short description", l, "desc"), field("URL", l, "url")).forEach(function (n) { r.appendChild(n); });
+    var bt = el("div", { className: "btns" }, [
+      el("button", { text: "Move up", onclick: function () { if (i > 0) { draft.links.splice(i - 1, 0, draft.links.splice(i, 1)[0]); render(); } } }),
+      el("button", { text: "Move down", onclick: function () { if (i < draft.links.length - 1) { draft.links.splice(i + 1, 0, draft.links.splice(i, 1)[0]); render(); } } }),
+      el("button", { text: "Delete", onclick: function () { draft.links.splice(i, 1); render(); } })
+    ]);
+    r.appendChild(bt); box.appendChild(r);
+  });
+  var msg = el("p", { className: "msg", id: "msg" });
+  var acts = el("div", { className: "btns", style: "display:flex;gap:.5rem;flex-wrap:wrap" }, [
+    el("button", { text: "Add link", onclick: function () { draft.links.push({ title: "", desc: "", url: "https://" }); render(); } }),
+    el("button", { className: "go", text: "Save changes", onclick: save }),
+    el("button", { text: "Cancel", onclick: function () { editing = false; render(); } })
+  ]);
+  box.appendChild(acts); box.appendChild(msg); main.appendChild(box);
+}
+async function save(){
+  var m = $("msg"); m.textContent = "Saving…";
+  try {
+    var clone = document.documentElement.cloneNode(true);
+    clone.querySelectorAll("[data-edit]").forEach(function (n) { n.remove(); });
+    clone.querySelector("#links").replaceChildren();
+    clone.querySelector("#links").hidden = false;
+    clone.querySelector("#data").textContent = JSON.stringify(draft).replace(/</g, "\\u003c");
+    await artifact.publish("<!DOCTYPE html>\n" + clone.outerHTML);
+  } catch (e) { m.textContent = "Could not save: " + ((e && e.message) || "try again."); }
+}
+render();
+if (window.claude && claude.use) {
+  Promise.all([claude.use("user"), claude.use("artifact")]).then(function (r) {
+    var u = r[0]; artifact = r[1];
+    canEdit = !!(u && artifact && (u.canEdit() || u.isOwner()));
+    if (canEdit && !editing) render();
+  }).catch(function () {});
+}
+</script>
+
+
+<span id="PING_CONTENT_PUSH_NOTIFICATION" style="display: none;"></span><grammarly-desktop-integration data-grammarly-shadow-root="true" style="visibility: visible !important;"></grammarly-desktop-integration><span id="PING_CONTENT_PUSH_NOTIFICATION" style="display: none;"></span><span id="PING_CONTENT_PUSH_NOTIFICATION" style="display: none;"></span></body></html>
